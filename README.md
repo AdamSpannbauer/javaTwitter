@@ -30,7 +30,7 @@ $ mvn install
 
 * Example for pulling tweets by `@stnklean` (output truncated)
 
-```bash
+```
 $ mvn exec:java -Dexec.args="stnklean" -q
 @stnklean - RT @SpongeBLaugh: POOP: People Order Our Patties RT if you remember this one. ;)
 @stnklean - RT @augst: only wearing clothes made by friends or underground brands im supporting in 2019
