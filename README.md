@@ -16,6 +16,18 @@ Assumes Java & Maven are installed.
 $ git clone https://github.com/AdamSpannbauer/javaTwitter.git
 ```
 
+#### Add your Twitter API credentials
+
+Place your app's API keys/secrets [here in src/main/java/tweets/UserSearch.java](https://github.com/AdamSpannbauer/javaTwitter/blob/master/src/main/java/tweets/UserSearch.java#L15) (relevant snippet shown below).
+
+```java
+// replace with your app's keys
+cb.setOAuthConsumerKey("consumerKey");
+cb.setOAuthConsumerSecret("consumerSecret");
+cb.setOAuthAccessToken("accessToken");
+cb.setOAuthAccessTokenSecret("accessTokenSecret");
+```
+
 #### Compile/install project
 
 ```bash
