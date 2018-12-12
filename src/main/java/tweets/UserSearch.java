@@ -12,12 +12,11 @@ public class UserSearch {
   public UserSearch(String usr) {
     user = usr;
 
-    // should've kept these keys/secrets actually secret... but oh well
-    // keys/secrets here are now invalid. new keys have been generated
-    cb.setOAuthConsumerKey("mnIP2MrZr12QrWXdv6BEA4NLs");
-    cb.setOAuthConsumerSecret("ZxTYwVbvpCpMl7hyU02Cwvz6TTa7zhCORG2A5BWAnMcr7plfPX");
-    cb.setOAuthAccessToken("598738534-h3VS7RZjLwQ9jghuuBanL9QOPirdDnMkx8hejujn");
-    cb.setOAuthAccessTokenSecret("ndmOEdHOPavV90m6avmiw8Vywp8HE6C8uacBL5nM9F7kt");
+    // replace with your app's keys
+    cb.setOAuthConsumerKey("consumerKey");
+    cb.setOAuthConsumerSecret("consumerSecret");
+    cb.setOAuthAccessToken("accessToken");
+    cb.setOAuthAccessTokenSecret("accessTokenSecret");
   }
 
   public void getTimeline() {
